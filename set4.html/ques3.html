@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK YOUR TRIP</title>
+</head>
+
+<body background="https://visme.co/blog/wp-content/uploads/simple-backgrounds_Travel-Presentation-full_1.jpg">
+    <font color="white">
+        <h1>BOOK YOUR TRIP</h1>
+    </font>
+    <form action="booking.php">
+        <div>
+
+            <font color="white"><label for="name">Your Name</label></font>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name">
+        </div><br>
+        <div>
+            <font color="white" <label for="email">Your Email-ID</label></font>
+            <input type="text" id="email" name="email" placeholder="Enter Your E-mail ID">
+        </div><br>
+        <div>
+            <font color="white" <label for="contact">Your Contact Number</label></font>
+            <input type="text" id="contact" name="contact" placeholder="Enter Your Contact Number">
+        </div><br>
+        <hr>
+        <div>
+            <font color="white" <label for="adults">Adults</label></font>
+            <input type="text" id="adults" name="adults" placeholder="How many Adults">
+            <font color="white" <label for="children">Children</label></font>
+            <input type="text" id="children" name="children" placeholder="How many Children">
+            <font color="white" <label for="rooms">Number of Rooms</label></font>
+            <input type="text" id="rooms" name="rooms" placeholder="How many rooms required">
+        </div><br>
+        <div>
+            <font color="white" <label for="preference">Hotel/Resort/Cottage</label></font>
+            <select name="Preffered Hotel/Resort/Cottage" id="hotel-resort-cottage">
+                <option value="">--Please select an option--</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Resort">Resort</option>
+                <option value="Cottage">Cottage</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <font color="white" <label for="choose">Choose whether Abroad or in India &rarr;</font>
+            <input type="radio" id="choose" name="choose" value="Select"></label>
+            <font color="white" <label for="choose">India</label></font>
+            <input type="radio" id="choose" name="choose" value="Select">
+            <font color="white" <label for="choose">Abroad</label></font>
+        </div>
+        <br>
+        <div>
+            <font color="white" <label for="location">Type your Destination</label></font>
+            <input type="text" id="location" name="location" placeholder="Destination">
+        </div>
+        <br>
+        <span>
+            <font color="white" <label for="check-in date">Check-in date</label></font>
+            <input type="date" id="check-in date" name="check-in date" placeholder="Check-in Date">
+            <font color="white" <label for="check-out date">Check-out date</label></font>
+            <input type="date" id="check-out date" name="check-out date" placeholder="Check-Out Date">
+        </span>
+        <hr>
+        <div>
+            <font color="white" <label for="waytocontact">What is the best way to contact you?</label></font><br>
+            <font color="white" <label for="phone">Phone</label>
+                <input type="checkbox" id="phone" name="Phone">
+                <label for="emailid">E-mail ID</label>
+                <input type="checkbox" id="emailid" name="E-Mail ID">
+                <label for="either">Either</label>
+                <input type="checkbox" id="either" name="Either">
+            </font>
+        </div>
+        <br>
+        <div>
+            <font color="white" <label for="anythingelse">Anything else you want us to know?</label></font><br>
+            <textarea name="anythingelse" id="anythingelse" cols="35" rows="10" placeholder="Type here"></textarea>
+        </div>
+        <br>
+        <div>
+       <input class="submitoption"
+       type="button"
+       value="submit">
+        </div>
+    </form>
+</body>
+</html>
